@@ -1,0 +1,750 @@
+
+    body{
+        margin: 0;
+        width: 100vw;
+        height: 110vh;
+        background-color: white;
+        font-family: Arial, Helvetica, sans-serif;
+
+        display: flex;
+        flex-direction: column;
+        
+    }
+    .header{
+    flex: 1;
+    background-color:rgb(255, 255, 260);
+    display: flex;
+
+
+    }
+    .headerlogo{
+        height: 57px;
+        
+        width: 48px;
+        
+        display: flex;
+        
+    }
+    .logo{
+        width: 40px;
+        height: 40px;
+        margin-top: 6px;
+        margin-left: 10px;
+        
+    }
+    .headersearch{
+      /*  background-color: blueviolet;*/
+        width: 260px;
+        height:57px;
+        margin-left: 8px;
+
+
+        display: flex;
+        align-items: center;
+        
+    }
+    .searchbox{
+        margin-bottom: 4px;
+        background-color:whitesmoke;
+        border-radius: 20px;
+        width: 100%;
+        height:75%;
+        position: relative;
+        top: 2px;
+        border: 0px solid ;
+
+
+    display: flex;
+    align-items: center;
+    }
+
+    #search-icon-c{
+    margin-left: 10px;
+    margin-right: 8px;
+    margin-top: 3px;
+    color: gray;
+
+    }
+    .searchbar{
+        width:150px;
+        background-color:whitesmoke;
+        height:26px;
+        border-radius:30px ;
+        border: 0;
+        
+    }
+    .middleicons{
+    width:37%;
+    background-color:white ;
+    position: relative;
+    left:110px ;
+    height: 100%;
+
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    }
+    .middleiconschild{
+        width: 40px;
+        height: 40px;
+        margin:1px ;
+        
+        border-radius: 10px;
+    }
+    .middle-2 {
+        width: 120px;
+        height: 60px;
+        /*background-color: aqua;*/
+        position: relative;
+        left: 205px;
+
+        display: flex;
+        align-items: center;
+    }
+    .middle-2 img{
+        height:53% ;
+        width: 28%;
+        border-radius: 20px;
+
+    }
+    .middle-2 p{
+        position: relative;
+        left: 5px;
+        color: gray;
+        font-weight: 600;
+    }
+    .authicons{
+        width: 15%;
+        height: 100%;
+        background-color: white;
+        position: relative;
+        left: 205px;
+
+        display: flex;
+        align-items: center;
+        justify-content:center;
+    }
+    
+    .authiconschild{
+        width: 37px;
+        height: 36px;
+        margin-left: 10px;
+        background-color:lightgray;
+        border-radius: 20px;
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .container{
+        flex: 10;
+        background-color: brown;
+
+        display: flex;
+        
+    }
+    .leftcontainer{
+        flex: 3 ;
+        background-color: lightgrey;
+    
+        
+        
+    }
+    .left-row{
+        width: 280px;
+        height: 380px;
+        margin: 10px;
+        /*background-color: black;*/
+    
+        
+    }
+    .left-row-icons{
+        width: 280px;
+        height: 40px;
+        margin-top: 6px;
+       /* background-color:wheat;*/
+    }
+    .left-row-icons-firstdiv{
+    display: flex;
+    /*background-color:yellowgreen;*/
+    width:250px;
+    height: 40px;
+    align-items: center;
+    }
+    .left-row-icons .profile{
+    width: 30px;
+    height: 27px;
+    border-radius: 20px;
+    margin: 4px;
+    }
+    .left-pro-name{
+        margin-left: 08px;
+        font-size: 15px;
+        font-weight:bold;
+        color: gray;
+        
+
+
+    }
+    .middlecontainer{
+        flex: 5;
+        background-color:lightgrey;
+
+        display: flex;
+        flex-direction: column;
+    
+        
+    }
+    .middlecontainer-1{
+        flex: 0.37;
+        position: relative;
+        top: 10px;
+        /*background-color:pink;*/
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        
+        
+    }
+
+    .storybgpic-1{
+        width: 115px;
+        height: 190px;
+        margin-left: 5px;
+        margin-right: 5px;
+        margin-top:08px;
+        background-size:215px;
+        background-repeat: no-repeat;
+        background-image: url(./images/WhatsApp\ Image\ 2022-03-31\ at\ 5.18.54\ PM.jpeg);
+        background-color: white;
+        border-radius: 12px;
+
+        display: flex;
+        
+        
+    }
+.text{
+    position: relative;
+    top: 170px;
+    left: 18px;
+width:150px ;
+height: 23px;
+/*background-color: aqua;*/
+position: relative;
+
+display: flex;
+
+justify-content: center;
+
+}
+.text b{
+    font-size: small;
+}
+
+.plus-icon{
+    width: 95px;
+    height: 45px;
+    border-radius: 25px;
+    position: relative;
+    left: -40px;
+    top: 110px;
+    
+    background-color: black;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    
+}
+.blue-circle{
+    width: 80%;
+    height: 80%;
+    border-radius: 25px;
+    background-color: blue;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#plus-icon-child{
+    
+    width: 50%;
+    height: 50%;
+    color:white;
+
+    
+}
+    .storybgpic-2{
+        width: 115px;
+        height: 190px;
+        margin-left: 5px;
+        margin-right: 5px;
+        margin-top:08px;
+        background-size:290px;
+        background-repeat: no-repeat;
+        background-image: url(./images/WhatsApp\ Image\ 2022-03-31\ at\ 5.18.54\ PM.jpeg);
+        background-color: black;
+        border-radius: 12px;
+
+        
+    }
+    .storybgpic-2 p{
+        color: white;
+        position: relative;
+       top: 95px;
+       left: 10px;
+       font-size: small;
+    }
+    .storybgpic-3{
+        width: 115px;
+        height: 190px;
+        margin-left: 5px;
+        margin-right: 5px;
+        margin-top:08px;
+        background-size:290px;
+        background-repeat: no-repeat;
+        background-image: url(./images/WhatsApp\ Image\ 2022-03-31\ at\ 5.18.54\ PM.jpeg);
+        background-color: black;
+        border-radius: 12px;
+
+        
+    }
+    .storybgpic-3 p{
+        color: white;
+        position: relative;
+       top: 95px;
+       left: 10px;
+       font-size: small;
+    }
+    .storybgpic-4{
+        width: 115px;
+        height: 190px;
+        margin-left: 5px;
+        margin-right: 5px;
+        margin-top:08px;
+        background-size:290px;
+        background-repeat: no-repeat;
+        background-image: url(./images/WhatsApp\ Image\ 2022-03-31\ at\ 5.18.54\ PM.jpeg);
+        background-color: black;
+        border-radius: 12px;
+}
+        .storybgpic-4 p{
+            color: white;
+            position: relative;
+           top: 95px;
+           left: 10px;
+           font-size: small;
+        }
+
+    .storybgpic-5{
+        width: 115px;
+        height: 190px;
+        margin-left: 5px;
+        margin-right: 5px;
+        margin-top:08px;
+        background-size:290px;
+        background-repeat: no-repeat;
+        background-image: url(./images/WhatsApp\ Image\ 2022-03-31\ at\ 5.18.54\ PM.jpeg);
+        background-color: black;
+        border-radius: 12px;
+
+        
+    }
+    .storybgpic-5 p{
+        color: white;
+        position: relative;
+       top: 95px;
+       left: 10px;
+       font-size: small;
+    }
+
+
+    /*.storybg-pic-{
+        width: 100% ;
+        height: 70%;
+        border-top-left-radius: 12px;
+        border-top-right-radius: 12px;
+
+        display: flex;
+
+    }
+    .storybg-pic-2{
+        width: 100%;
+        height: 100%;
+        border-radius: 12px;
+        display: flex;
+    }*/
+    
+       .storyicon{
+        width:40%;
+        height:23%;
+        background-color: blue;
+        border-radius: 25px;
+        margin: 10px;
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        
+    }
+    .storyicon img{
+        border-radius: 25px;
+    }
+
+    .middlecontainer-2{
+        flex:0.13;
+        width: 500px;
+        background-color:white;
+        margin-top: 20px;
+        margin-left: 60px;
+        border-radius: 10px;
+
+        display: flex;
+        flex-direction: column;
+    }
+    .m-c-2-firstrow{
+        width: 500px;
+        height: 70px;
+        background-color:white;
+        position: relative;
+        top:8px;
+        border-top-left-radius:10px ;
+        border-top-right-radius:10px ;
+
+        display: flex;
+    }
+    
+    .m-c-2-firstrow-child-2{
+        display: flex;
+    }
+    .m-c-2-firstrow-child-2 input{
+        width:410px;
+        height: 38px;
+        margin-left:5px;
+       background-color:whitesmoke;
+        margin: 10px;
+        
+        border-radius: 20px;
+        border: 0;
+    }
+    .m-c-2-firstrow-child-1{
+        width:48px;
+        height: 50px;
+     /*background-color:yellow;*/
+        margin: 10px;
+
+        display: ;
+    }
+    .m-c-2-firstrow-child-1 img{
+        width:94%;
+        height: 82%;
+        border-radius: 20px;
+    }
+    .m-c--2-secondrow{
+        width: 500px;
+        height: 50px;
+       /* background-color:white;*/
+        border-bottom-left-radius:10px ;
+        border-bottom-right-radius:10px ;
+        
+
+        display: flex;
+
+    }
+    .m-c--2-secondrow-div1{
+        width: 200px;
+        height: 55px;
+        margin: 3px;
+        /*background-color: white;*/
+
+        display: flex;
+    }
+    
+    .m-c--2-secondrow-div1-child-1{
+        width: 60px;
+        height: 45px;
+        margin-top: 5px;
+        margin-left: 5px;
+       /* background-color: cornflowerblue;*/
+        
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    #livevideo-post-icon{
+        width: 42%;
+        height:52% ;
+
+    }
+
+    .m-c--2-secondrow-div1-child-2
+    {
+        width: 90px;
+        height: 45px;
+        margin-top: 5px;
+        margin-left: 0px;
+       /* background-color: cornflowerblue;*/
+display: flex;
+align-items: center;
+    }
+    .m-c--2-secondrow-div1-child-2 p{
+        margin-left: -12px;
+    }
+    
+    
+    .middlecontainer-3{
+        margin-top: 10px;
+        flex: 0.22;
+       /* background-color: burlywood;*/
+
+        display: flex;
+        justify-content: center;
+    }
+    .first-row{
+        width: 80%;
+        height: 95%;
+        position: relative;
+        top: 03px;
+        border-radius: 10px;
+        background-color:white;
+
+        display: flex;
+        align-items: center;
+    }
+
+    .first-row-child-1{
+        background-color: lightgray;
+        width: 45px;
+        height: 45px;
+        border-radius: 25px;
+        position: relative;
+        left: 50px;
+        margin: 7px;
+
+        display: flex;
+        
+
+    }
+    .room{
+        width: 29%;
+        height:60% ;
+        position: relative;
+        left: 15px;
+        border-radius: 20px;
+        border: 1px solid blue;  
+        display: flex;
+        align-items:center;
+
+    }
+    .room i{
+        position: relative;
+        left: 10px;
+
+    }
+    .room p{
+        position: relative;
+        left: 20px;
+        color: blue;
+    }
+    .first-row-child-1 img{
+        border-radius: 25px;
+    }
+    .post-div{
+        flex: 0.16;
+        width: 80%;
+        background-color:white;
+        position: relative;
+        top: 12px;
+        left: 62px;
+        border-top-right-radius: 12px;
+        border-top-left-radius: 12px;
+
+        display: flex;
+    }
+    .post-div-child-1{
+    
+            width:48px;
+            height: 50px;
+         /*background-color:yellow;*/
+            position: relative;
+            left: 08px;
+            top: 10px;
+    
+            display:flex ;
+            justify-content: center;
+    
+    }
+    .post-div-child-1 img{
+        height: 80%;
+        width: 80%;
+        border-radius: 20px;
+
+    }
+    .pro-name{
+        width: 140px;
+        height: 45px;
+        /*background-color: yellow;*/
+        position: relative;
+        left: 05px;
+        top: 6px;
+
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+
+    }
+    .pro-name-child-1{
+        width: 90%;
+        height: 56%;
+        /*background-color: blueviolet;*/
+        display: flex;
+    }
+    .pro-name-child-1 b{
+        position: relative;
+        left: 3px;
+        top: 6px;
+    }
+
+    .pro-name-child-2{
+        width: 100%;
+        height: 39%;
+        /*background-color: blueviolet;*/
+
+        display: flex;
+        
+    }
+    .pro-name-child-2 svg{
+        position: relative;
+        left: 05px;
+
+    }
+
+    .pro-name-child-2 p{
+        font-size: small;
+        font-weight: lighter;
+        position: relative;
+        bottom: 10px;
+        left: 5px;
+    }
+    #three-dots{
+        position: relative;
+        left: 270px;
+        top: 18px;
+    }
+    .orig-post{
+        flex: 0.2;
+        width: 80%;
+       /* background-color: aqua;*/
+        position: relative;
+        top: 12px;
+        left: 62px;
+        display: flex;
+    }
+    .orig-post img{
+        width: 100%;
+        height: 80%;
+    }
+
+    .rightcontainer{
+        flex: 3;
+        background-color:lightgrey;
+
+        display: flex;
+        justify-content: center;
+    }
+    .r-cont-child{
+    width: 320px;
+    height: 320px;
+    /*background-color: yellow;*/
+    position: relative;
+    top:10px;
+    left: 110px;
+
+    display: flex;
+    flex-direction: column;
+
+
+    }
+    .r-cont-child-div1{
+        width: 90%;
+        height:680% ;
+        margin: 0px;
+      /*  background-color: aqua;*/
+
+        display: flex;
+        align-items: center;
+
+    }
+.r-cont-child-div1 img{
+    height: 85%;
+    width: 40%;
+    border-radius: 12px;
+    
+}
+#image-2{
+    height:85%;
+    width: 40%;
+    border-radius: 12px;
+    position: relative;
+    bottom: 10px;
+}
+.r-cont-child-div1 b{
+    position: relative;
+    bottom: 15px;
+    left: 15px;
+    color: gray;
+}
+.r-cont-child-div1 p{
+    position: relative;
+    right: 52px;
+    font-size: smaller;
+    color: darkgray;
+
+}
+
+#b-right{
+    position: relative;
+    bottom: 25px;
+    
+}
+#p-right{
+    position: relative;
+    bottom: 10px;
+
+
+}
+.r-cont-child h3{
+    position: relative;
+    left: 5px;
+    top: 10px;
+    font-size: large;
+    color: grey;
+}
+.window{
+    width: 250px;
+    height: 90px;
+   /* background-color: blue;*/
+    position: relative;
+    top: 480px;
+    right: 200px;
+
+    
+    
+    
+    }
+    .window h3{
+        position: relative;
+        bottom: 10px;
+        font-size: large;
+        color: gray;
+        
+    }
+    .window p{
+        font-size: smaller;
+        color: darkgray;
+        position: relative;
+        bottom: 25px;
+    }
